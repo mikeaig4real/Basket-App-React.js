@@ -12,3 +12,62 @@
     align-items: center;
     flex-direction: column ;
 }
+
+.contain button{
+    margin: 2vh 0 0 22vw;
+    padding: 0 2vw;
+    border-radius: 4px;
+    font-weight: 600;
+    border: 2px solid transparent;
+}
+
+.contain button:hover {
+    background-color: blue;
+    border: 2px solid white;
+    font-weight: 600;
+    color: white;
+}
+
+.contain input {
+    outline-color: blue;
+}
+
+.contain label {
+    margin: 0 1vw;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    padding: 3vh 1vh;
+}
+
+.list {
+    display: flex;
+    border: 2px solid blue;
+    flex-direction: column;
+    border-radius: 0 10vw 0 5vw;
+    padding: 2vh 0;
+    min-height: 60vh;
+    width: 35vw;
+    margin: 0 3vw;
+    text-transform: capitalize;
+}
+
+.list i {
+    margin: 0 2vw;
+    color: rgb(218, 0, 0);
+}
+
+.items i {
+    color: rgb(0, 0, 0);
+}
+.items button {
+    margin: 0 0 1vh 2vw;
+    text-transform: capitalize !important;
+}
+
+.items button:hover {
+    color: rgb(255, 255, 255);
+} 
+
